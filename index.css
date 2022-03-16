@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.055),white);
+}
+#bannier{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3)), url(img/naail-hussain-SIkr1HEjslo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position:initial;
+    height: 100vh;
+    
+    background-size: cover;
+}
+.barre_manue{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 60px;
+}
+.menu ul a{
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Cinzel', serif;
+    text-decoration: none;
+    list-style: none;
+    
+}
+ul li{
+    margin-left: 100px;
+    color: white;
+    padding: 10px;
+    border-radius:69% 31% 30% 67%/72% 47% 40% 26% ;
+    cursor: pointer;
+    
+    
+}
+ul li:hover{
+    transform: translateY(10%);
+    background-color: white;
+    color: black;
+
+
+}
+.logo{
+    color: white;
+    font-family: 'Cinzel', serif;
+
+}
+.tex {
+    padding: 25px 60px;
+    color: white;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+}
+.tex h1{
+    font-size: 65px;
+    margin-top: 75px;
+
+}
+
+.blob{
+    border-radius:69% 31% 30% 67%/72% 47% 40% 26% ;
+    width: 40px;
+    height: 40px;
+    background: rgba(53, 117, 238, 0.938);
+    text-align: center;
+    margin-left: 40%;
+}
+.menu_title{
+    text-align: center;
+    margin-top: 65px;
+    
+}
+.precision{
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 200px;
+}
+.lieu{
+    width: 250px;
+    height: 50px;
+    padding-top: 20px;
+    text-align: center;
+    align-items: center;
+    background-size: 200% auto;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.377)0%,rgba(255, 255, 255, 0.849) 30%,rgba(0, 0, 0, 0.377) 100%);
+    transition: 0.9s;
+}
+.lieu:hover{
+    background-position: right center;
+}
+.lieu i{
+font-size: 30px;
+}
+
+.texte{
+    transform: translateY(-80%);
+}
+.texte h1{
+    transform: translateX(-0.5%);
+}
+.division{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+}
+.division1{
+   text-align: center;
+    width: 300px;
+    
+}
+.division1 a{
+    text-decoration: none;
+    color: white;
+}
+.division1 a i{
+    color: rgb(54, 53, 53);
+}
+.division1 h1
+{
+    background: white;
+    background-color: rgba(78, 129, 238, 0.87);
+    background-size: 200% auto;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.377)0%,rgba(255, 255, 255, 0.849) 30%,rgba(0, 0, 0, 0.377) 100%);
+    transition: 0.9s;
+    
+}
+.division1 h1:hover{
+   background-position: right center;
+   transform: scale(0.95);
+}
+
+.image img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.image{
+    position: relative;
+    width: 100%;
+}
+
+.recouvrement{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background: linear-gradient(rgba(56, 55, 55, 0.315),rgba(249, 249, 250, 0.753));
+}
+.image:hover .recouvrement{
+    opacity: 1;
+}
+
+.texte2{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+footer{
+    text-align: center;
+    height: 30vh;
+    margin-top: 300px;
+    color: white;
+    background-color: rgb(34, 33, 33);
+}
+.icon{
+    margin-top: 30px;
+    
+}
+.icon i{
+    font-size: 20px;
+    margin-left: 30px;
+    cursor: pointer;
+    
+}
+.icon i:hover{
+    transform: scale(0.95);
+    
+    
+}
+
+.fin h1{
+    
+    font-size: 30px;
+}
+.textfin{
+    margin-top: 70px;
+}
+
